@@ -4,6 +4,7 @@ import { AppContext } from '@/context/AppContext'
 import { db } from '@/firebaseConfig'
 import { doc, getDoc, increment, updateDoc } from 'firebase/firestore'
 import TestModel from '@/components/TestModel/TestModel'
+import OnboardingTour from '@/components/OnboardingTour/OnboardingTour'
 
 
 const getClassDetails = async () => {
@@ -30,6 +31,7 @@ async function page() {
             ></iframe>
 
             <TestModel />
+            <OnboardingTour />
 
         </div>
     )
