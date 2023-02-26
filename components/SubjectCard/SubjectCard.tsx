@@ -20,7 +20,7 @@ const SubjectCard = ({ subject }: { subject: any }) => {
                 }
 
             }}
-            className='w-52 h-52 relative rounded-md bg-brand m-2 flex justify-start items-end hover:scale-105 hover:cursor-pointer'>
+            className={`${subject.className === 'Ancient Egypt' ? 'w-60 h-60 lg:w-96 lg:h-96' : "w-52 h-52 lg:w-80 lg:h-80"} relative rounded-md bg-brand m-2 flex justify-start items-end hover:scale-105 hover:cursor-pointer`}>
 
             {subject?.classLogos && (
                 <Image

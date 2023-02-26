@@ -29,7 +29,7 @@ async function page() {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; microphone; camera; display-capture; xr-spatial-tracking; xr;"
             ></iframe>
 
-            {/* <TestModel /> */}
+            <TestModel />
 
         </div>
     )
