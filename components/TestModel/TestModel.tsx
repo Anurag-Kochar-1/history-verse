@@ -146,7 +146,7 @@ const TestModel = () => {
                                             } else if (!optionChosen) {
                                                 const notify = () => toast(`Choose an Option`, {
                                                     duration: 2000,
-                                                    icon: '😀',
+                                                    icon: '👏',
                                                 });
                                                 notify()
                                             }
