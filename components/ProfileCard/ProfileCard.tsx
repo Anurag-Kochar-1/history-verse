@@ -11,15 +11,16 @@ const ProfileCard = ({ place }: { place: string }) => {
 
     return (
         <div className={`${place == "navbar" && "hidden md:inline-flex"} flex justify-center items-center space-x-3`}>
-            {/* {userDetails?.displayPicture && (
+            {userDetails?.displayPicture && (
                 <Image
                     src={userDetails?.displayPicture as string}
                     alt="dp"
                     width={150}
+                    unoptimized
                     height={150}
                     className="w-9 h-9 rounded-full"
                 />
-            )} */}
+            )}
             <p className='font-open_sans text-base font-medium'> {userDetails?.userName} </p>
             <AiOutlineLogout
                 size={"1.2rem"}

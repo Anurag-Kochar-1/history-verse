@@ -25,7 +25,7 @@ const NavBar = ({ place }: IProps) => {
 
 
   return (
-    <header className='fixed top-0 w-full h-20 bg-gray-100 px-5 flex justify-between items-center'>
+    <header className='z-40 fixed top-0 w-full h-20 bg-gray-100 px-5 flex justify-between items-center'>
       <Link href={`/`} className='flex justify-center items-center space-x-3'>
         <Image
           src={logo}
