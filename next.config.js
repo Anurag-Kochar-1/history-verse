@@ -8,7 +8,8 @@ const nextConfig = {
         "lh3.googleusercontent.com",
 
       ]
-    }
+    },
+    
   },
 }
 
