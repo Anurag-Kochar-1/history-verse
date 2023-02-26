@@ -1,4 +1,3 @@
-/* eslint react/no-unescaped-entities */
 "use client"
 
 
