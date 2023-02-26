@@ -1,6 +1,6 @@
 "use client"
 import { auth, db } from '@/firebaseConfig'
-import { IUserDetails } from '@/interfaces/userInterface'
+import { IUserDetails } from "../interfaces/UserInterface"
 // import { onAuthChanged } from '@/service/Auth/AuthService'
 import { onAuthStateChanged } from 'firebase/auth'
 import { doc, getDoc } from 'firebase/firestore'
