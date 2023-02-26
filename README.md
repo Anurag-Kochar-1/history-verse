@@ -14,7 +14,7 @@ Ultimately, this metaverse platform will inspire the next generation of history 
 ## Links
 1. LIVE : https://history-verse.vercel.app/
 2. Video : https://youtu.be/DR3JcJHgZOU
-3. PPT : https://app.pitch.com/app/player/4bdbac12-3638-4738-a383-bedca2e0b79b/83d99f18-5b04-4339-aaf9-31409fbc21d8
+3. PPT Drive Link : https://drive.google.com/file/d/1Ro4yUcRbmmVN5jpscs1SfWoK5vzZA_8I/view?usp=sharing
 
 ## Features
 1. Sign with in Google
