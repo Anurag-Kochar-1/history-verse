@@ -7,17 +7,21 @@ import Button from '../Button/Button'
 
 // async function getUserCoins(uid: string) {
 //     const userRef = doc(db, "users", uid)
-//     const res = await getDoc(userRef)
-//     return res.data()
+//     const { data: userCoins } = await getDoc(userRef)
+//     return userCoins
 // }
 
 const Wallet = () => {
-    const { userDetails } = useContext(AppContext)
-    // const data = await getUserCoins(userDetails?.uid as string)
+    // const { userDetails } = useContext(AppContext)
+    // const userCoins = await getUserCoins(userDetails?.uid as string)
+    // console.log(`userCoins`)
+    // console.log(`userCoins`)
+    // console.log(`userCoins`)
+    // console.log(userCoins)
 
 
     return (
-        <div className='h-10 px-6 font-open_sans text-white flex justify-center items-center space-x-2 text-base font-semibold bg-dark rounded-md hover:bg-white hover:text-brand hover:border-2 hover:border-brand hover:cursor-pointer'>
+        <div className='hidden md:inline-flex h-10 px-6 font-open_sans text-white justify-center items-center space-x-2 text-base font-semibold bg-dark rounded-md hover:bg-white hover:text-brand hover:border-2 hover:border-brand hover:cursor-pointer'>
             <Image
                 src={`/goldCoin.png`}
                 alt={'goldCoin'}

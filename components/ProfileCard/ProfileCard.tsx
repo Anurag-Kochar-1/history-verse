@@ -10,7 +10,7 @@ const ProfileCard = ({ place }: { place: string }) => {
     const { userDetails, setuserDetails } = useContext(AppContext)
 
     return (
-        <div className={`${place == "navbar" && "hidden md:inline-flex"} flex justify-center items-center space-x-3`}>
+        <div className={`${place == "navbar" && "hidden md:inline-flex"} flex justify-center items-center space-x-3 border-2 border-brand px-5 py-1 rounded-md`}>
             {userDetails?.displayPicture && (
                 <Image
                     src={userDetails?.displayPicture as string}
@@ -18,7 +18,7 @@ const ProfileCard = ({ place }: { place: string }) => {
                     width={150}
                     unoptimized
                     height={150}
-                    className="w-9 h-9 rounded-full"
+                    className="w-7 h-7 rounded-full"
                 />
             )}
             <p className='font-open_sans text-base font-medium'> {userDetails?.userName} </p>
