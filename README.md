@@ -11,9 +11,20 @@ In addition to the immersive learning experience, we will also incorporate gamif
 
 Ultimately, this metaverse platform will inspire the next generation of history enthusiasts 👨‍🎓👩‍🎓 and help to create a more engaged and informed society. 🌍
 
+## Links
+1. LIVE : https://history-verse.vercel.app/
+2. Video : https://youtu.be/DR3JcJHgZOU
+3. PPT : https://app.pitch.com/app/player/4bdbac12-3638-4738-a383-bedca2e0b79b/83d99f18-5b04-4339-aaf9-31409fbc21d8
 
 ## Features
+1. Sign with in Google
+2. Earn Gold coins by giving quiz
+3. Climb the leaderboard with your coins
+4. Claim rewards from the shop
+5. Choose from 3 different classes
 
+
+## Images
 ![wall1](./docImages/wall-1.PNG)
 ![wall2](./docImages/wall-2.PNG)
 ![wall3](./docImages/wall-3.PNG)
@@ -23,3 +34,10 @@ Ultimately, this metaverse platform will inspire the next generation of history 
 ![homePage](./docImages/homepage.PNG)
 ![leaderboard](./docImages/leaderboard.PNG)
 ![shop](./docImages/shop.PNG)
+
+
+## Tech Stack
+1. Next JS 13
+2. Firebase
+3. Tailwind CSS
+4. TypeScript
