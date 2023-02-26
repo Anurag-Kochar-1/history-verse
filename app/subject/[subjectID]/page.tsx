@@ -3,6 +3,7 @@ import NavBar from '../../../components/Navbar/Navbar'
 import { AppContext } from '@/context/AppContext'
 import { db } from '@/firebaseConfig'
 import { doc, getDoc, increment, updateDoc } from 'firebase/firestore'
+import TestModel from '@/components/TestModel/TestModel'
 
 
 const getClassDetails = async () => {
@@ -27,6 +28,8 @@ async function page() {
                 src={subjectData?.classMetaverseID}
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; microphone; camera; display-capture; xr-spatial-tracking; xr;"
             ></iframe>
+
+            {/* <TestModel /> */}
 
         </div>
     )
