@@ -1,38 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# History Verse : Experience history like never before with our immersive metaverse platform!
 
-## Getting Started
 
-First, run the development server:
+## Problem Statement
+Learning about history is an essential aspect of education, but traditional methods such as textbooks and videos can often be tedious and unengaging, leading to disinterest in the subject and missed learning opportunities. This lack of engagement can lead to poor academic performance and a decreased interest in history as a subject. 😴📚📹👎
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Solution 
+To address these challenges, we propose the development of a metaverse platform 🌌🎮 that provides students with an immersive and interactive learning experience for studying history. By leveraging 3D Environment, interactive classes🎓, and engaging storytelling 📖, students will have the opportunity to explore different eras, civilizations, and events in a way that is engaging and exciting. 💡🌟
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In addition to the immersive learning experience, we will also incorporate gamification elements to keep students motivated and engaged. Students can earn virtual currency 🏆💰 in the form of gold coins by giving tests and quizzes, which they can use to climb the leaderboard 🥇🥈🥉and claim rewards 🎁. This will add an element of competition and motivation to the learning experience, encouraging students to participate more actively and enhancing their academic outcomes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ultimately, this metaverse platform will inspire the next generation of history enthusiasts 👨‍🎓👩‍🎓 and help to create a more engaged and informed society. 🌍
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![wall1](./docImages/wall-1.PNG)
+![wall2](./docImages/wall-2.PNG)
+![wall3](./docImages/wall-3.PNG)
+![wall-intro](./docImages/wall-intro.PNG)
+![test](./docImages/model-1.PNG)
+![OBtour](./docImages/onboard1.PNG)
+![homePage](./docImages/homepage.PNG)
+![leaderboard](./docImages/leaderboard.PNG)
+![shop](./docImages/shop.PNG)
